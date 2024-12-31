@@ -1,13 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-
   width: 100vw;
   height: 100vh;
-
   color: #fff;
   background-color: #000;
-
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -35,7 +32,6 @@ a {
 main {
   display: grid;
   place-items: center;
-
   height: 100%;
   width: 100%;
 }
