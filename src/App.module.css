@@ -1,0 +1,50 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  cursor: default;
+
+  padding: 0 16px;
+
+  text-align: center;
+}
+
+.Container h1 {
+  display: inline-block;
+  background-clip: text;
+  --webkit-text-fill-color: transparent;
+  color: transparent;
+  background-image: linear-gradient(
+    270deg,
+    rgb(170, 220, 220) 18.4315%,
+    rgb(240, 180, 180) 54.0356%,
+    rgb(200, 170, 255) 107.697%,
+    rgb(255, 255, 255) 193.148%
+  );
+}
+
+.Container p {
+  max-width: 568px;
+}
+
+.Container a:hover {
+  background-image: linear-gradient(
+    270deg,
+    rgb(170, 220, 220) 18.4315%,
+    rgb(240, 180, 180) 54.0356%,
+    rgb(200, 170, 255) 107.697%,
+    rgb(255, 255, 255) 193.148%
+  );
+  background-clip: text;
+  --webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.Container ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
