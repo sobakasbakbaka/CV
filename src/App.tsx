@@ -4,12 +4,7 @@ export const App = () => {
   return (
     <div className={styles.Container}>
       <h1>Nikita Naumov</h1>
-      <h2>
-        Frontend Engineer –{" "}
-        <a href="https://www.s7.ru/" target="_blank">
-          S7
-        </a>
-      </h2>
+      <h2>Frontend Engineer</h2>
       <p>
         I am a Frontend Engineer with a strong interest in creating modern and
         user-friendly web applications. My main focus is frontend development,
